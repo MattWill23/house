@@ -1,0 +1,98 @@
+.topleft {
+    height: 70px;
+    width: 100px;
+    background-color: #f33c3c;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+  }
+  .topright {
+    height: 70px;
+    width: 120px;
+    background-color: rgb(91, 91, 253);
+    position: absolute;
+    top: 50px;
+    left: 140px;
+  }
+  .bottomright {
+    height: 80px;
+    width: 80px;
+    background-color: #ff94f1;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+  }
+  .bottomleft  {
+    height: 80px;
+    width: 140px;
+    background-color: #934ab4;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+  }
+  .roof  {
+	width: 0;
+	height: 0;
+	border-left: 130px solid transparent;
+	border-right: 130px solid transparent;
+	border-bottom: 50px solid #000000;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.door {
+    height: 60px;
+    width: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+  }
+.bottomFoundation {
+    height: 20px;
+    width: 220px;
+    background-color: #000000;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+.oval {
+    height: 50px;
+    width: 80px;
+    background-color: #4ad355;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 220px;
+  }
+  .treeLeft {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 100px solid #42d64e;
+  position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+.trapezoid {
+	border-bottom: 30px solid #757575;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 60px;
+  position: absolute; 
+  top: 230px;
+  left: 100px;
+}
+
+.parallelogram {
+	width: 60px;
+	height: 20px;
+	transform: skew(20deg);
+	background: #757575;
+  position: absolute;
+  top: 240px;
+  left: 10px;
+}
